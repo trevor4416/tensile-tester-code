@@ -9,7 +9,6 @@
 void driveStepper(int steps, bool dir);
 
 void setup() {
-  // put your setup code here, to run once:
   pinMode(ENA, OUTPUT);
   pinMode(DIR, OUTPUT);
   pinMode(PUL, OUTPUT);
@@ -19,12 +18,7 @@ void setup() {
 }
 
 void loop() {
-  // this is a comment I added
-  // Josh comment
-  // 🐟 - updated to be an update
-  // this is a trevor comment
   
-  //fish
 }
 
 void driveStepper(int steps, bool dir) {
