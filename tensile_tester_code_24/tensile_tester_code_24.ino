@@ -2,9 +2,9 @@
 #include <Arduino.h>
 
 // stepper pin definition
-#define ENA 11 // enable pin
-#define DIR 12 // direction pin
-#define PUL 13 // step pin
+#define ENA 8 // enable pin
+#define DIR 9 // direction pin
+#define PUL 10 // step pin
 
 void driveStepper(int steps, bool dir);
 
